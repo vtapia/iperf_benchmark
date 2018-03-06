@@ -1,0 +1,13 @@
+'Network':
+    name: winnet
+    mask: 255.255.255.0
+    server_ip: 192.168.200.1
+    vm_ip: 192.168.200.15
+
+'VM':
+    name: testVM
+    disk: /VM/kvm/testVM.img
+
+'Definitions':
+    qemu_def_file: qemu_definitions.yml
+    driver_def_file: driver_definitions.yml

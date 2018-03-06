@@ -1,0 +1,8 @@
+$collection = New-Object -TypeName PSObject
+Get-ChildItem "{{guest_log_path}}" -Filter *.csv | Foreach-Object {
+    $results = Import-csv $_.FullName -header "Time", "Transmit_IP", "Transmit_Port", "Receive_IP", "Receive_Port", "ID", "Run_Time", "Data_transferred", "Throughput"
+    # Removing last line from CSV (iperf extra info)
+    $results = $results[0..($results.count - 2)]
+    $collection | Add-Member -MemberType NoteProperty -Name $_.Name -Value $results
+}
+echo $collection | ConvertTo-JSON

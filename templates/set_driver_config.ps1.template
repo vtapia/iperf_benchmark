@@ -1,0 +1,2 @@
+{% for option in Options %}Set-NetAdapterAdvancedProperty -InterfaceDescription "Canonical*" -DisplayName "{{ option['Name'] }}" -DisplayValue "{{ option['Value'] }}"
+{% endfor %}

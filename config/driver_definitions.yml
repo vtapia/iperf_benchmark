@@ -1,0 +1,70 @@
+    'D0':
+        Options:
+                - Name: "Multiple Queues Allowed"
+                  Value: 'No'
+                - Name: "Receive Side Scaling"
+                  Value: "Disabled"
+                - Name: "Maximum Number of RSS Queues"
+                  Value: '1'
+                - Name: "Receive CSO Mode"
+                  Value: 'Tolerant'
+    'D1':
+        Options:
+                - Name: "Multiple Queues Allowed"
+                  Value: 'Yes'
+                - Name: "Receive Side Scaling"
+                  Value: "Enabled"
+                - Name: "Maximum Number of RSS Queues"
+                  Value: '2'
+                - Name: "Receive CSO Mode"
+                  Value: 'Tolerant'
+    'D2':
+        Options:
+                - Name: "Multiple Queues Allowed"
+                  Value: 'Yes'
+                - Name: "Receive Side Scaling"
+                  Value: 'Enabled'
+                - Name: "Maximum Number of RSS Queues"
+                  Value: '2'
+                - Name: "Receive CSO Mode"
+                  Value: 'Strict'
+    'D3':
+        Options:
+                - Name: "Multiple Queues Allowed"
+                  Value: 'Yes'
+                - Name: "Receive Side Scaling"
+                  Value: 'Enabled'
+                - Name: "Maximum Number of RSS Queues"
+                  Value: '4'
+                - Name: "Receive CSO Mode"
+                  Value: 'Tolerant'
+    'D4':
+        Options:
+                - Name: "Multiple Queues Allowed"
+                  Value: 'Yes'
+                - Name: "Receive Side Scaling"
+                  Value: 'Enabled'
+                - Name: "Maximum Number of RSS Queues"
+                  Value: '4'
+                - Name: "Receive CSO Mode"
+                  Value: 'Strict'
+    'D5':
+        Options:
+                - Name: "Multiple Queues Allowed"
+                  Value: 'Yes'
+                - Name: "Receive Side Scaling"
+                  Value: 'Enabled'
+                - Name: "Maximum Number of RSS Queues"
+                  Value: '8'
+                - Name: "Receive CSO Mode"
+                  Value: 'Tolerant'
+    'D6':
+        Options:
+                - Name: "Multiple Queues Allowed"
+                  Value: 'Yes'
+                - Name: "Receive Side Scaling"
+                  Value: 'Enabled'
+                - Name: "Maximum Number of RSS Queues"
+                  Value: '8'
+                - Name: "Receive CSO Mode"
+                  Value: 'Strict'

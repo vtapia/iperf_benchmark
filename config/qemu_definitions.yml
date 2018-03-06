@@ -1,0 +1,22 @@
+        'Q1':
+                vcpus: '4'
+                queues: '2'
+        'Q2':
+                vcpus: '4'
+                queues: '4'
+        'Q3':
+                vcpus: '4'
+                queues: 'off'
+        'Q4':
+                vcpus: '8'
+                queues: '2'
+        'Q5':
+                vcpus: '8'
+                queues: '4'
+        'Q6':
+                vcpus: '8'
+                queues: '8'
+        'Q7':
+                vcpus: '8'
+                queues: 'off'
+

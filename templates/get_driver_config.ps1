@@ -1,0 +1,1 @@
+Get-NetAdapter -InterfaceDescription "Canonical*" | Get-NetAdapterAdvancedProperty | Where {($_.DisplayName -like "*Receive*" -or $_.DisplayName -like "*Queues*") -and $_.DisplayName -notlike "*Slot*"} | Select DisplayName, DisplayValue | Convertto-JSON
